@@ -3,9 +3,9 @@ import mysql.connector
 try:
     connection = mysql.connector.connect(
         host='localhost',
-        database='hangman',  # ✅ Replace '#' with your actual database name
+        database='hangman',
         user='root',
-        password='root'
+        password='1234'
     )
 
     sql_select_Query = "SELECT DISTINCT * FROM Record"
